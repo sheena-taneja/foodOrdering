@@ -1,0 +1,118 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* .header {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid black
+}
+
+.logo {
+  width: 200px;
+}
+
+.nav-items {
+  padding:  0px 20px;
+}
+
+.nav-items > ul {
+  font-size: 24px;
+  display: flex;
+  list-style-type: none;
+}
+
+.nav-items > ul > li {
+  padding: 10px;
+  margin: 10px
+}
+
+.res-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.res-card {
+  margin: 5px;
+  padding: 5px;
+  width: 200px;
+  height: 400px;
+  background-color: rgb(206, 203, 203);
+  word-wrap: break-word;
+}
+
+.res-card:hover {
+  cursor: pointer;
+  border: 1px solid black;
+}
+
+.search {
+  padding: 10px
+}
+
+.res-logo {
+  width: 100%;
+}
+
+.filter-btn {
+margin: 10px;
+cursor: pointer;
+}
+
+.shimmer-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.shimmer-card {
+  margin: 20px;
+  width: 200px;
+  height: 400px;
+  background-color: #f0f0f0
+}
+
+.login {
+  padding: 0 20px;
+  cursor: pointer;
+}
+
+.filter {
+  display: flex;
+}
+
+.user-card {
+  padding: 10px;
+  border: 1px solid black;
+}
+
+.resCard-link {
+  color: rgb(10, 10, 10); 
+  text-decoration: none;
+  font-weight: bold; 
+
+  word-wrap: break-word;
+}
+
+.accordion {
+  border: 1px solid #aa9494;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  background-color: #f0f0f0
+
+}
+
+.accordion-item-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.accordion-item-content {
+  padding: 10px;
+}
+
+.accordion-item.active {
+  background-color: #f0f0f0;
+} */

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="google-signin-client_id" content="628696433935-o4srh1qu2bppcbb99m4iccs0l9p28qcd.apps.googleusercontent.com">
+    <link rel="stylesheet" href="./index.css"></link>
+    <title>Zwigato</title>
+</head>
+<body>
+    <div id="root">
+        <h1>hii</h1>
+    </div>
+    <script>
+        function onGooglePayLoaded() {
+            window.googlePayClient = new google.payments.api.PaymentsClient({
+              environment: "TEST"
+            });
+
+            console.log("loaded")
+          }
+    </script>
+    <script type="module" src="./src/App.js"> </script>
+    <script src="https://accounts.google.com/gsi/client"></script>
+    <script async src="https://pay.google.com/gp/p/js/pay.js" onload="onGooglePayLoaded()"></script>
+</body>
+</html>
